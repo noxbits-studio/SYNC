@@ -1,0 +1,154 @@
+{
+  "providers": [
+    {
+      "id": "gemini",
+      "displayName": "Gemini",
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta",
+      "apiFormat": "Gemini",
+      "authType": "QueryParam",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "groq",
+      "displayName": "Groq",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "openrouter",
+      "displayName": "OpenRouter",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "mistral",
+      "displayName": "Mistral",
+      "baseUrl": "https://api.mistral.ai/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "nvidia",
+      "displayName": "NVIDIA NIM",
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "cerebras",
+      "displayName": "Cerebras",
+      "baseUrl": "https://api.cerebras.ai/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "sambanova",
+      "displayName": "SambaNova",
+      "baseUrl": "https://api.sambanova.ai/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "deepinfra",
+      "displayName": "DeepInfra",
+      "baseUrl": "https://api.deepinfra.com/v1/openai",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "modelscope",
+      "displayName": "ModelScope",
+      "baseUrl": "https://api-inference.modelscope.cn/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "together",
+      "displayName": "Together AI",
+      "baseUrl": "https://api.together.xyz/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "fireworks",
+      "displayName": "Fireworks AI",
+      "baseUrl": "https://api.fireworks.ai/inference/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "novita",
+      "displayName": "Novita AI",
+      "baseUrl": "https://api.novita.ai/v3/openai",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "hyperbolic",
+      "displayName": "Hyperbolic",
+      "baseUrl": "https://api.hyperbolic.xyz/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "cohere",
+      "displayName": "Cohere",
+      "baseUrl": "https://api.cohere.com/compatibility/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Trial"
+    },
+    {
+      "id": "perplexity",
+      "displayName": "Perplexity",
+      "baseUrl": "https://api.perplexity.ai",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    }
+  ]
+}
