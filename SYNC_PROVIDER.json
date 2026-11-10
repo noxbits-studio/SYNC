@@ -1,3 +1,4 @@
+
 {
   "providers": [
     {
@@ -144,6 +145,86 @@
       "id": "perplexity",
       "displayName": "Perplexity",
       "baseUrl": "https://api.perplexity.ai",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "deepseek",
+      "displayName": "DeepSeek",
+      "baseUrl": "https://api.deepseek.com",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "xai",
+      "displayName": "xAI (Grok)",
+      "baseUrl": "https://api.x.ai/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "qwen",
+      "displayName": "Qwen (Alibaba)",
+      "baseUrl": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Trial"
+    },
+    {
+      "id": "zai",
+      "displayName": "Z.ai (GLM)",
+      "baseUrl": "https://api.z.ai/api/paas/v4",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "minimax",
+      "displayName": "MiniMax",
+      "baseUrl": "https://api.minimax.io/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Trial"
+    },
+    {
+      "id": "moonshot",
+      "displayName": "Moonshot AI (Kimi)",
+      "baseUrl": "https://api.moonshot.ai/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "openai",
+      "displayName": "OpenAI",
+      "baseUrl": "https://api.openai.com/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "huggingface",
+      "displayName": "Hugging Face",
+      "baseUrl": "https://router.huggingface.co/v1",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
       "capabilities": ["Streaming"],
