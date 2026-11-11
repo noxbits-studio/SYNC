@@ -1,6 +1,15 @@
-
 {
   "providers": [
+    {
+      "id": "anthropic",
+      "displayName": "Anthropic Claude",
+      "baseUrl": "https://api.anthropic.com/v1",
+      "apiFormat": "Anthropic",
+      "authType": "HeaderKey",
+      "capabilities": ["Streaming", "Multimodal"],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
     {
       "id": "gemini",
       "displayName": "Gemini",
