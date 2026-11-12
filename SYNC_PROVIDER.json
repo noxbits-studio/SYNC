@@ -1,14 +1,14 @@
 {
   "providers": [
     {
-      "id": "anthropic",
-      "displayName": "Anthropic Claude",
-      "baseUrl": "https://api.anthropic.com/v1",
-      "apiFormat": "Anthropic",
-      "authType": "HeaderKey",
-      "capabilities": ["Streaming", "Multimodal"],
+      "id": "aionlabs",
+      "displayName": "AionLabs",
+      "baseUrl": "https://api.aionlabs.ai/v1",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": ["Streaming"],
       "supportsStreaming": true,
-      "tier": "Paid"
+      "tier": "Free"
     },
     {
       "id": "gemini",
