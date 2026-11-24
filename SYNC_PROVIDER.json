@@ -204,6 +204,631 @@
       ],
       "supportsStreaming": false,
       "tier": "Paid"
+    },
+    {
+      "id": "github",
+      "displayName": "GitHub Models",
+      "baseUrl": "https://models.github.ai/inference/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free",
+      "defaultModel": "openai/gpt-4.1-mini"
+    },
+    {
+      "id": "cerebras",
+      "displayName": "Cerebras",
+      "baseUrl": "https://api.cerebras.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "sambanova",
+      "displayName": "SambaNova",
+      "baseUrl": "https://api.sambanova.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "cohere",
+      "displayName": "Cohere",
+      "baseUrl": "https://api.cohere.ai/compatibility/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "zai",
+      "displayName": "Z.ai (GLM)",
+      "baseUrl": "https://api.z.ai/api/paas/v4/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "siliconflow",
+      "displayName": "SiliconFlow",
+      "baseUrl": "https://api.siliconflow.com/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "llm7",
+      "displayName": "LLM7 (Tanpa Key)",
+      "baseUrl": "https://api.llm7.io/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "None",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "pollinations",
+      "displayName": "Pollinations (Tanpa Key)",
+      "baseUrl": "https://text.pollinations.ai/openai/",
+      "apiFormat": "OpenAi",
+      "authType": "None",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "ovhcloud",
+      "displayName": "OVHcloud AI Endpoints (Tanpa Key)",
+      "baseUrl": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "None",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "kilo",
+      "displayName": "Kilo Gateway (Tanpa Key)",
+      "baseUrl": "https://api.kilo.ai/api/gateway/",
+      "apiFormat": "OpenAi",
+      "authType": "None",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "ollama_cloud",
+      "displayName": "Ollama Cloud",
+      "baseUrl": "https://ollama.com/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "requesty",
+      "displayName": "Requesty",
+      "baseUrl": "https://router.requesty.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "aionlabs",
+      "displayName": "Aion Labs",
+      "baseUrl": "https://api.aionlabs.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "modelscope",
+      "displayName": "ModelScope",
+      "baseUrl": "https://api-inference.modelscope.cn/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "bigmodel",
+      "displayName": "Zhipu BigModel (GLM)",
+      "baseUrl": "https://open.bigmodel.cn/api/paas/v4/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "siliconflow_cn",
+      "displayName": "SiliconFlow (China)",
+      "baseUrl": "https://api.siliconflow.cn/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "hunyuan",
+      "displayName": "Tencent Hunyuan",
+      "baseUrl": "https://api.hunyuan.cloud.tencent.com/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "clarifai",
+      "displayName": "Clarifai",
+      "baseUrl": "https://api.clarifai.com/v2/ext/openai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Free"
+    },
+    {
+      "id": "scaleway",
+      "displayName": "Scaleway Generative APIs",
+      "baseUrl": "https://api.scaleway.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Trial"
+    },
+    {
+      "id": "ai21",
+      "displayName": "AI21 Labs",
+      "baseUrl": "https://api.ai21.com/studio/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Trial"
+    },
+    {
+      "id": "upstage",
+      "displayName": "Upstage Solar",
+      "baseUrl": "https://api.upstage.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Trial"
+    },
+    {
+      "id": "baseten",
+      "displayName": "Baseten",
+      "baseUrl": "https://inference.baseten.co/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Trial"
+    },
+    {
+      "id": "stepfun",
+      "displayName": "StepFun",
+      "baseUrl": "https://api.stepfun.com/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Trial"
+    },
+    {
+      "id": "friendli",
+      "displayName": "Friendli",
+      "baseUrl": "https://api.friendli.ai/serverless/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Trial"
+    },
+    {
+      "id": "aimlapi",
+      "displayName": "AI/ML API",
+      "baseUrl": "https://api.aimlapi.com/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Trial"
+    },
+    {
+      "id": "huggingface",
+      "displayName": "Hugging Face Router",
+      "baseUrl": "https://router.huggingface.co/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "novita",
+      "displayName": "Novita AI",
+      "baseUrl": "https://api.novita.ai/openai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "deepinfra",
+      "displayName": "DeepInfra",
+      "baseUrl": "https://api.deepinfra.com/v1/openai/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "dashscope",
+      "displayName": "Alibaba Qwen (DashScope)",
+      "baseUrl": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "chutes",
+      "displayName": "Chutes",
+      "baseUrl": "https://llm.chutes.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "vercel",
+      "displayName": "Vercel AI Gateway",
+      "baseUrl": "https://ai-gateway.vercel.sh/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "nscale",
+      "displayName": "Nscale",
+      "baseUrl": "https://inference.api.nscale.com/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "kluster",
+      "displayName": "kluster.ai",
+      "baseUrl": "https://api.kluster.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "parasail",
+      "displayName": "Parasail",
+      "baseUrl": "https://api.parasail.io/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "inference_net",
+      "displayName": "Inference.net",
+      "baseUrl": "https://api.inference.net/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "dashscope_cn",
+      "displayName": "Alibaba Qwen (DashScope China)",
+      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Credit"
+    },
+    {
+      "id": "anthropic",
+      "displayName": "Anthropic (Claude)",
+      "baseUrl": "https://api.anthropic.com/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "xai",
+      "displayName": "xAI (Grok)",
+      "baseUrl": "https://api.x.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "moonshot",
+      "displayName": "Moonshot (Kimi)",
+      "baseUrl": "https://api.moonshot.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "venice",
+      "displayName": "Venice AI",
+      "baseUrl": "https://api.venice.ai/api/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "minimax",
+      "displayName": "MiniMax",
+      "baseUrl": "https://api.minimax.io/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "moonshot_cn",
+      "displayName": "Moonshot (Kimi China)",
+      "baseUrl": "https://api.moonshot.cn/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "volcengine",
+      "displayName": "Volcengine Ark (Doubao)",
+      "baseUrl": "https://ark.cn-beijing.volces.com/api/v3/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "qianfan",
+      "displayName": "Baidu Qianfan (ERNIE)",
+      "baseUrl": "https://qianfan.baidubce.com/v2/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "lambda",
+      "displayName": "Lambda Inference",
+      "baseUrl": "https://api.lambda.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "featherless",
+      "displayName": "Featherless AI",
+      "baseUrl": "https://api.featherless.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "synthetic",
+      "displayName": "Synthetic",
+      "baseUrl": "https://api.synthetic.new/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "nanogpt",
+      "displayName": "NanoGPT",
+      "baseUrl": "https://nano-gpt.com/api/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "poe",
+      "displayName": "Poe",
+      "baseUrl": "https://api.poe.com/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "nous",
+      "displayName": "Nous Research",
+      "baseUrl": "https://inference-api.nousresearch.com/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "cortecs",
+      "displayName": "Cortecs (EU)",
+      "baseUrl": "https://api.cortecs.ai/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
+    },
+    {
+      "id": "nebius",
+      "displayName": "Nebius AI Studio",
+      "baseUrl": "https://api.studio.nebius.com/v1/",
+      "apiFormat": "OpenAi",
+      "authType": "Bearer",
+      "capabilities": [
+        "Chat"
+      ],
+      "supportsStreaming": true,
+      "tier": "Paid"
     }
   ]
 }
