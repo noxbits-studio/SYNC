@@ -6,17 +6,21 @@
       "baseUrl": "https://api.groq.com/openai/v1/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Free"
     },
     {
       "id": "gemini",
       "displayName": "Gemini",
-      "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai/",
-      "apiFormat": "OpenAi",
-      "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta",
+      "apiFormat": "Gemini",
+      "authType": "QueryParam",
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Free"
     },
@@ -26,7 +30,10 @@
       "baseUrl": "https://api.openai.com/v1/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat", "TTS"],
+      "capabilities": [
+        "Chat",
+        "TTS"
+      ],
       "supportsStreaming": true,
       "tier": "Paid"
     },
@@ -36,9 +43,12 @@
       "baseUrl": "https://openrouter.ai/api/v1/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
-      "tier": "Credit"
+      "tier": "Credit",
+      "nativeSearch": "ModelSuffixOnline"
     },
     {
       "id": "deepseek",
@@ -46,7 +56,9 @@
       "baseUrl": "https://api.deepseek.com/v1/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Paid"
     },
@@ -56,7 +68,9 @@
       "baseUrl": "https://api.mistral.ai/v1/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Free"
     },
@@ -66,7 +80,9 @@
       "baseUrl": "https://integrate.api.nvidia.com/v1/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Credit"
     },
@@ -76,7 +92,9 @@
       "baseUrl": "https://api.together.xyz/v1/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Free"
     },
@@ -86,7 +104,9 @@
       "baseUrl": "https://api.fireworks.ai/inference/v1/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Credit"
     },
@@ -96,7 +116,9 @@
       "baseUrl": "https://api.perplexity.ai/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Paid"
     },
@@ -106,7 +128,9 @@
       "baseUrl": "https://api.endpoints.anyscale.com/v1/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Paid"
     },
@@ -116,7 +140,9 @@
       "baseUrl": "https://api.hyperbolic.xyz/v1/",
       "apiFormat": "OpenAi",
       "authType": "Bearer",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Credit"
     },
@@ -126,7 +152,9 @@
       "baseUrl": "https://keylessai.thryx.workers.dev/v1/",
       "apiFormat": "OpenAi",
       "authType": "None",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Free"
     },
@@ -136,7 +164,9 @@
       "baseUrl": "http://10.0.2.2:11434/v1/",
       "apiFormat": "OpenAi",
       "authType": "None",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Free"
     },
@@ -146,7 +176,9 @@
       "baseUrl": "http://10.0.2.2:1234/v1/",
       "apiFormat": "OpenAi",
       "authType": "None",
-      "capabilities": ["Chat"],
+      "capabilities": [
+        "Chat"
+      ],
       "supportsStreaming": true,
       "tier": "Free"
     },
@@ -156,7 +188,9 @@
       "baseUrl": "https://api.elevenlabs.io/",
       "apiFormat": "ElevenLabs",
       "authType": "Header",
-      "capabilities": ["TTS"],
+      "capabilities": [
+        "TTS"
+      ],
       "supportsStreaming": false,
       "tier": "Paid"
     }
